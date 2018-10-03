@@ -1,9 +1,9 @@
 defmodule Words do
-  def count(lines) do
+  def count(lines, mod) do
     lines
-    |> Enum.flat_map(&String.split/1)
-    |> Enum.map(&String.downcase/1)
-    |> Enum.map(&remove_special_chars/1)
+    |> mod.flat_map(&String.split/1)
+    |> mod.map(&String.downcase/1)
+    |> mod.map(&remove_special_chars/1)
     |> Enum.reduce(%{}, &count_word/2)
   end
 
