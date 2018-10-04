@@ -1,21 +1,19 @@
-# Words
-
-**TODO: Add description**
+# OtpStuff
 
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `words` to your list of dependencies in `mix.exs`:
+by adding `otp_stuff` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:words, "~> 0.1.0"}
+    {:otp_stuff, "~> 0.1.0"}
   ]
 end
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/words](https://hexdocs.pm/words).
+be found at [https://hexdocs.pm/otp_stuff](https://hexdocs.pm/otp_stuff).
 

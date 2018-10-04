@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :words, key: :value
+#     config :otp_stuff, key: :value
 #
 # and access this configuration in your application as:
 #
-#     Application.get_env(:words, :key)
+#     Application.get_env(:otp_stuff, :key)
 #
 # You can also configure a 3rd-party app:
 #
