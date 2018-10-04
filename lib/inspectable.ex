@@ -23,3 +23,9 @@ defimpl Inspectable, for: Any do
     "A random element"
   end
 end
+
+defimpl Inspectable, for: Point do
+  def dump(%Point{x: x, y: y, z: z}) do
+    "(#{x}, #{y}, #{z})"
+  end
+end
